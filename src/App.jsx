@@ -1,14 +1,17 @@
 import React from 'react'
 import Greet from './Greet'
 import State from './State'
+import Event from './Event'
 
 function App() {
   return (
     <div>
-      <h1>Hello, World!</h1>
-      <State />
+      <p>Hello, World!</p>
+      
       <Greet name="khushi" />
       <Greet name="darshika" />
+      <State />
+      <Event />
     </div>
   )
 }
